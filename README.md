@@ -13,3 +13,10 @@ I always wanted to make my very own world generator that could have anything I n
 
 # I do not solve any issues and pull requests right now.
 If you want to make a contribution, you can message me on my Discord `Kléma#2512` (not recommended rn, I will update README soon)
+
+# Biomes I want to make
+- [ ] Spruce lands
+- [ ] Birch flat
+- [ ] Oak woods
+
+Many more will be added soon. I just don't know what to add and how to name it properly...
