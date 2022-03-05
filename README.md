@@ -1,4 +1,4 @@
-# Iris RealGen
+# Iris Bittersweet gen
 I always wanted to make my very own world generator that could have anything I need and wanted all the time.
 
 **THIS GEN IS NOT A GOOD IN PRODUCTION ENVIRONMENT, DO NOT USE IT.**
