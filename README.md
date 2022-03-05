@@ -1,2 +1,15 @@
-# Iris-RealGen
-My first odd world gen made in Iris World Gen. Will be updated in the weeks (hope it will be)
+# Iris RealGen
+I always wanted to make my very own world generator that could have anything I need and wanted all the time.
+
+**THIS GEN IS NOT A GOOD IN PRODUCTION ENVIRONMENT, DO NOT USE IT.**
+
+# Things I need to learn before going into full production:
+- [ ] Learn and understand dimensions
+- [ ] Do some biomes for orienting in Iris
+- [ ] Make some structures to know how to add that too
+- [ ] Making caves
+
+- [ ] Completing whole list - knowing basics/advances of Iris
+
+# I do not solve any issues and pull requests right now.
+If you want to make a contribution, you can message me on my Discord `Kléma#2512` (not recommended rn, I will update README soon)
