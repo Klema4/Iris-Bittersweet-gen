@@ -4,9 +4,9 @@ I always wanted to make my very own world generator that could have anything I n
 **THIS GEN IS NOT A GOOD IN PRODUCTION ENVIRONMENT, DO NOT USE IT.**
 
 # Things I need to learn before going into full production:
-- [ ] Learn and understand dimensions
-- [ ] Do some biomes for orienting in Iris
-- [ ] Make some structures to know how to add that too
+- [X] Learn and understand dimensions
+- [X] Do some biomes for orienting in Iris
+- [X] Make some structures to know how to add that too
 - [ ] Making caves
 
 - [ ] Completing whole list - knowing basics/advances of Iris
