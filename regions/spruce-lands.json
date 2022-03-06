@@ -1,0 +1,22 @@
+{
+    "name": "Spruce Lands",
+    "color": "#5981ff",
+    "fluidBodies": {
+        "rivers": [
+            {"depthStyle": {"max": 30}},
+            {"rarity": 100},
+            {"worm":{"allowLoops": true}}
+        ]
+    },
+    "landBiomes": [
+        "spruce-lands/plains",
+        "spruce-lands/mountains",
+        "spruce-lands/forest"
+    ],
+    "seaBiomes": [
+        "spruce-lands/plains"
+    ],
+    "shoreBiomes": [
+        "spruce-lands/plains"
+    ]
+}

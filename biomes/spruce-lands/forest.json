@@ -1,0 +1,135 @@
+{
+    "name": "Spruce Forest",
+    "vanillaDerivative": "FOREST",
+    "derivative": "FOREST",
+    "color": "#5ee6bd",
+    "generators": [
+        {
+            "generator": "plains",
+            "max": 60,
+            "min": 1
+        }
+    ],
+    "layers": [
+        {
+            "maxHeight": 5,
+            "minHeight": 3,
+            "zoom": 0.3,
+            "palette": [
+                    {"block": "minecraft:grass_block"},
+                    {"block": "minecraft:grass_block"},
+                    {"block": "minecraft:grass_block"},
+                    {"block": "minecraft:grass_block"},
+                    {"block": "minecraft:grass_block"},
+                    {"block": "minecraft:grass_block"},
+                    {"block": "minecraft:grass_block"},
+                    {"block": "minecraft:coarse_dirt"},
+                    {"block": "minecraft:podzol"},
+                    {"block": "minecraft:rooted_dirt"}
+            ]
+        },
+        {
+            "slopeCondition": {"minimumSlope": 10},
+            "maxHeight": 100,
+            "minHeight": 2,
+            "zoom": 0.01,
+            "style": {
+                "multiplier": 1000
+            },
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:tuff"},
+                {"block": "minecraft:gravel"},
+                {"block": "minecraft:cobblestone"},
+                {"block": "minecraft:andesite"}
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.07,
+            "palette": [
+                {"block":"minecraft:grass"}
+            ]
+        },
+        {
+            "chance": 0.02,
+            "palette": [
+                {"block":"minecraft:tall_grass"}
+            ]
+        },
+        {
+            "chance": 0.02,
+            "palette": [
+                {"block":"minecraft:fern"}
+            ]
+        },
+        {
+            "chance": 0.002,
+            "palette": [
+                {"block": "minecraft:azalea"},
+                {"block": "minecraft:flowering_azalea"}
+            ]
+        },
+        {
+            "chance": 0.01,
+            "palette": [
+                {"block":"minecraft:dandelion"},
+                {"block":"minecraft:poppy"},
+                {"block":"minecraft:blue_orchid"},
+                {"block":"minecraft:allium"},
+                {"block":"minecraft:azure_bluet"},
+                {"block":"minecraft:red_tulip"},
+                {"block":"minecraft:orange_tulip"},
+                {"block":"minecraft:white_tulip"},
+                {"block":"minecraft:pink_tulip"},
+                {"block":"minecraft:oxeye_daisy"},
+                {"block":"minecraft:cornflower"},
+                {"block":"minecraft:lily_of_the_valley"}
+            ]
+        },
+        {
+            "chance": 0.0008,
+            "palette": [
+                {"block":"minecraft:brown_mushroom"},
+                {"block": "minecraft:red_mushroom"}
+            ]
+        },
+        {
+            "chance": 0.003,
+            "palette": [
+                {"block":"minecraft:sweet_berry_bush","data": {"age":0}},
+                {"block":"minecraft:sweet_berry_bush","data": {"age":1}},
+                {"block":"minecraft:sweet_berry_bush","data": {"age":2}},
+                {"block":"minecraft:sweet_berry_bush","data": {"age":3}}
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.7,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/spruce/High_tree_1"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -4,
+                "z": 0
+            },
+            "density": 1,
+            "bore": false,
+            "meld": false,
+            "overStilt": 2
+        }
+    ]
+}
