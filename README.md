@@ -20,3 +20,9 @@ If you want to make a contribution, you can message me on my Discord `Kléma#251
 - [ ] Oak woods
 
 Many more will be added soon. I just don't know what to add and how to name it properly...
+
+# Credits
+Mr Wizz's tree pack: https://www.planetminecraft.com/project/tree-pack-repository-bundle---build-your-own-trees-optimized-map/
+
+Exsilit's tree pack: https://www.planetminecraft.com/project/tree-bundle-370-custom-trees-download/
+
