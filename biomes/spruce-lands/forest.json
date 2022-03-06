@@ -25,7 +25,8 @@
                     {"block": "minecraft:grass_block"},
                     {"block": "minecraft:coarse_dirt"},
                     {"block": "minecraft:podzol"},
-                    {"block": "minecraft:rooted_dirt"}
+                    {"block": "minecraft:rooted_dirt"},
+                    {"block": "minecraft:moss_block"}
             ]
         },
         {
@@ -48,32 +49,33 @@
     ],
     "decorators": [
         {
-            "chance": 0.07,
+            "chance": 0.09,
             "palette": [
                 {"block":"minecraft:grass"}
             ]
         },
         {
-            "chance": 0.02,
+            "chance": 0.04,
             "palette": [
-                {"block":"minecraft:tall_grass"}
+                {"block":"minecraft:tall_grass"},
+                {"block":"minecraft:large_fern"}
             ]
         },
         {
-            "chance": 0.02,
+            "chance": 0.01,
             "palette": [
                 {"block":"minecraft:fern"}
             ]
         },
         {
-            "chance": 0.002,
+            "chance": 0.003,
             "palette": [
                 {"block": "minecraft:azalea"},
                 {"block": "minecraft:flowering_azalea"}
             ]
         },
         {
-            "chance": 0.01,
+            "chance": 0.03,
             "palette": [
                 {"block":"minecraft:dandelion"},
                 {"block":"minecraft:poppy"},
@@ -86,23 +88,40 @@
                 {"block":"minecraft:pink_tulip"},
                 {"block":"minecraft:oxeye_daisy"},
                 {"block":"minecraft:cornflower"},
-                {"block":"minecraft:lily_of_the_valley"}
+                {"block":"minecraft:lily_of_the_valley"},
+                {"block":"minecraft:sunflower"},
+                {"block":"minecraft:lilac"},
+                {"block":"minecraft:peony"},
+                {"block":"minecraft:rose_bush"}
+
             ]
         },
         {
-            "chance": 0.0008,
+            "chance": 0.001,
             "palette": [
                 {"block":"minecraft:brown_mushroom"},
                 {"block": "minecraft:red_mushroom"}
             ]
         },
         {
-            "chance": 0.003,
+            "chance": 0.004,
             "palette": [
                 {"block":"minecraft:sweet_berry_bush","data": {"age":0}},
                 {"block":"minecraft:sweet_berry_bush","data": {"age":1}},
                 {"block":"minecraft:sweet_berry_bush","data": {"age":2}},
                 {"block":"minecraft:sweet_berry_bush","data": {"age":3}}
+            ]
+        },
+        {
+            "chance": 0.1,
+            "palette": [
+                {"block": "minecraft:moss_carpet"}
+            ]
+        },
+        {
+            "chance": 0.03,
+            "palette": [
+                {"block": "minecraft:small_dripleaf"}
             ]
         }
     ],
@@ -119,7 +138,16 @@
                 "enabled": true
             },
             "place": [
-                "trees/spruce/High_tree_1"
+                "trees/spruce/High_tree_1",
+                "trees/spruce/High_tree_2",
+                "trees/spruce/High_tree_3",
+                "trees/spruce/High_tree_4",
+                "trees/spruce/High_tree_5",
+                "trees/spruce/High_tree_6",
+                "trees/spruce/Mid_tree_1",
+                "trees/spruce/Mid_tree_2",
+                "trees/spruce/Mid_tree_3",
+                "tress/spruce/Small_tree_1"
             ],
             "translate": {
                 "x": 0,

@@ -15,6 +15,7 @@
             "maxHeight": 1,
             "minHeight": 1,
             "zoom": 0.3,
+            "slopeCondition":{"maximumSlope": 3},
             "palette": [
                     {"block": "minecraft:grass_block"},
                     {"block": "minecraft:grass_block"},
@@ -29,14 +30,18 @@
             ]
         },
         {
-            "slopeCondition": {"minimumSlope": 10},
+            "slopeCondition": {"minimumSlope": 0},
             "maxHeight": 100,
             "minHeight": 7,
-            "zoom": 0.01,
-            "style": {
-                "multiplier": 1000
-            },
+            "zoom": 1,
             "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
                 {"block": "minecraft:stone"},
                 {"block": "minecraft:stone"},
                 {"block": "minecraft:tuff"},
