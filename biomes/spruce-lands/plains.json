@@ -14,7 +14,7 @@
         {
             "generator": "plains",
             "max": 40,
-            "min": 1
+            "min": 10
         }
     ],
     "layers": [
@@ -32,7 +32,8 @@
                     {"block": "minecraft:grass_block"},
                     {"block": "minecraft:coarse_dirt"},
                     {"block": "minecraft:podzol"},
-                    {"block": "minecraft:rooted_dirt"}
+                    {"block": "minecraft:rooted_dirt"},
+                    {"block": "minecraft:moss_block"}
             ]
         },
         {
@@ -63,7 +64,8 @@
         {
             "chance": 0.02,
             "palette": [
-                {"block":"minecraft:tall_grass"}
+                {"block":"minecraft:tall_grass"},
+                {"block":"minecraft:large_fern"}
             ]
         },
         {
@@ -80,7 +82,7 @@
             ]
         },
         {
-            "chance": 0.01,
+            "chance": 0.02,
             "palette": [
                 {"block":"minecraft:dandelion"},
                 {"block":"minecraft:poppy"},
@@ -93,7 +95,12 @@
                 {"block":"minecraft:pink_tulip"},
                 {"block":"minecraft:oxeye_daisy"},
                 {"block":"minecraft:cornflower"},
-                {"block":"minecraft:lily_of_the_valley"}
+                {"block":"minecraft:lily_of_the_valley"},
+                {"block":"minecraft:sunflower"},
+                {"block":"minecraft:lilac"},
+                {"block":"minecraft:peony"},
+                {"block":"minecraft:rose_bush"}
+
             ]
         },
         {
@@ -110,6 +117,18 @@
                 {"block":"minecraft:sweet_berry_bush","data": {"age":1}},
                 {"block":"minecraft:sweet_berry_bush","data": {"age":2}},
                 {"block":"minecraft:sweet_berry_bush","data": {"age":3}}
+            ]
+        },
+        {
+            "chance": 0.09,
+            "palette": [
+                {"block": "minecraft:moss_carpet"}
+            ]
+        },
+        {
+            "chance": 0.02,
+            "palette": [
+                {"block": "minecraft:small_dripleaf"}
             ]
         }
     ]

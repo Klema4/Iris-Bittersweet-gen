@@ -1,20 +1,33 @@
 {
     "name": "Spruce Lands",
     "color": "#5981ff",
-    "fluidBodies": {
-        "rivers": [
-            {"depthStyle": {"max": 30}},
-            {"rarity": 100},
-            {"worm":{"allowLoops": true}}
-        ]
+    "rivers": true,
+    "riverChanceStyle": {},
+    "riverRarity": 1,
+    "riverStyle": {
+        "style": "VASCULAR",
+        "zoom": 4.77,
+        "fracture": {
+            "multiplier": 240,
+            "style": "NOWHERE",
+            "zoom": 5
+        }
     },
+    "riverBiomes": [
+        "spruce-lands/sea/river"
+    ],
+    "shoreHeightMin": 1,
+    "shoreHeightMax": 3,
+    "shoreHeightZoom": 1.14,
+    "riverThickness": 0.025,
     "landBiomes": [
         "spruce-lands/plains",
         "spruce-lands/mountains",
         "spruce-lands/forest"
     ],
+    "landBiomeZoom": 1,
     "seaBiomes": [
-        "spruce-lands/plains"
+        "spruce-lands/sea/river"
     ],
     "shoreBiomes": [
         "spruce-lands/plains"

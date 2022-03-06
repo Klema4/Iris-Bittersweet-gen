@@ -7,7 +7,7 @@
         {
             "generator": "mountains",
             "max": 180,
-            "min": 40
+            "min": 5
         }
     ],
     "layers": [

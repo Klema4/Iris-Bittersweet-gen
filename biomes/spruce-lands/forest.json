@@ -7,7 +7,7 @@
         {
             "generator": "plains",
             "max": 60,
-            "min": 1
+            "min": 5
         }
     ],
     "layers": [
