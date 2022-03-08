@@ -17,13 +17,14 @@
         "spruce-lands/sea/river"
     ],
     "shoreHeightMin": 1,
-    "shoreHeightMax": 3,
+    "shoreHeightMax": 5,
     "shoreHeightZoom": 1.14,
     "riverThickness": 0.025,
     "landBiomes": [
         "spruce-lands/plains",
         "spruce-lands/mountains",
-        "spruce-lands/forest"
+        "spruce-lands/forest",
+        "spruce-lands/hills"
     ],
     "landBiomeZoom": 1,
     "seaBiomes": [
@@ -31,5 +32,131 @@
     ],
     "shoreBiomes": [
         "spruce-lands/plains"
-    ]
+    ],
+    "objects": [
+        {
+            "chance": 0.2,
+            "onwater": false,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "stone/stone1",
+                "stone/stone2",
+                "stone/stone3",
+                "stone/stone4",
+                "stone/stone5",
+                "stone/stone6",
+                "stone/stone7",
+                "stone/stone8",
+                "stone/stone9",
+                "stone/stone10",
+                "stone/stone11",
+                "stone/stone12",
+                "stone/stone13",
+                "stone/stone14",
+                "stone/stone15"
+            ],
+            "translate": {
+                "x": 2,
+                "y": 0,
+                "z": 2
+            },
+            "density": 1,
+            "bore": false,
+            "meld": false,
+            "overStilt": 2,
+            "mode": "PAINT",
+            "smartBore": true,
+            "underwater": false
+        },
+        {
+            "chance": 0.1,
+            "onwater": false,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "stone/Big_stone_1",
+                "stone/Big_stone_2",
+                "stone/Big_stone_3",
+                "stone/Big_stone_4"
+            ],
+            "translate": {
+                "x": -10,
+                "y": -3,
+                "z": -7
+            },
+            "density": 1,
+            "bore": false,
+            "meld": false,
+            "overStilt": 2,
+            "mode": "PAINT",
+            "smartBore": true,
+            "underwater": false
+        },
+        {
+            "bottom": true,
+            "chance": 0.4,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/spruce/High_tree_1",
+                "trees/spruce/High_tree_2",
+                "trees/spruce/High_tree_3",
+                "trees/spruce/High_tree_4",
+                "trees/spruce/High_tree_5",
+                "trees/spruce/High_tree_6",
+                "trees/spruce/Mid_tree_1",
+                "trees/spruce/Mid_tree_2",
+                "trees/spruce/Mid_tree_3",
+                "trees/spruce/Small_tree_1"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -4,
+                "yRandom": -1,
+                "z": 0
+            },
+            "density": 1,
+            "bore": false,
+            "meld": false,
+            "overStilt": 4,
+            "smartBore": true,
+            "onwater": false
+        }
+    ],
+    "carving": {
+        "caves": [
+            {
+                "breakSurface": true,
+                "cave": "rocky/main",
+                "rarity": 5,
+                "caveStartHeight": {
+                    "max": 320,
+                    "min": -64,
+                    "style": {"style": "STATIC"}
+                }
+            }
+        ]
+    }
 }
