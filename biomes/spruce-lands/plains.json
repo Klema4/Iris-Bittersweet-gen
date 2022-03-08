@@ -37,14 +37,18 @@
             ]
         },
         {
-            "slopeCondition": {"minimumSlope": 10},
+            "slopeCondition": {"minimumSlope": 0},
             "maxHeight": 100,
-            "minHeight": 2,
-            "zoom": 0.01,
-            "style": {
-                "multiplier": 1000
-            },
+            "minHeight": 7,
+            "zoom": 1,
             "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:stone"},
                 {"block": "minecraft:stone"},
                 {"block": "minecraft:stone"},
                 {"block": "minecraft:tuff"},
