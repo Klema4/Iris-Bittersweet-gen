@@ -3,7 +3,7 @@
 # Iris Bittersweet gen
 I always wanted to make my very own world generator that could have anything I need and wanted all the time.
 
-**THIS GEN IS NOT A GOOD IN PRODUCTION ENVIRONMENT, DO NOT USE IT.**
+**THIS GEN PACK IS NOT FOR PRODUCTION ENVIRONMENT, DO NOT USE IT.**
 
 # Things I need to learn before going into full production:
 - [X] Learn and understand dimensions
